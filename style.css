@@ -1,0 +1,23 @@
+/*
+Theme Name: BaseTheme
+Theme URI: www.dimaticasoftware.com
+Description: Base theme for Dimatica. Todos los derechos reservados.
+Author: Dimatica
+Author URI: http://dimaticasoftware.com;
+Version: 2.0
+*/
+
+/*Keep this file empty and clean*/
+
+/*General CSS*/
+
+
+
+
+::selection {
+  background: #6aafff; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #6aafff; /* Gecko Browsers */
+}
+

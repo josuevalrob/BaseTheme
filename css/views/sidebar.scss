@@ -1,0 +1,80 @@
+/*********Siderbar************/
+body {
+	.sidebar {
+		display: flex;
+		flex-wrap: wrap;
+		padding: $padding;
+		align-items: flex-start;
+		
+		.widget {
+			width: 100%;
+			height: auto;
+			//border: 1px solid $terc-color;
+			
+			.widget-title {
+				background-color: $terc-color;
+				color: $terc-text;
+				text-align: center;
+				padding: $padding;
+				margin: 0;
+				line-height: 20px;
+				font-size: 20px;
+				font-weight: 200;
+			}
+		}	
+
+/****************Botones siderbar *********/
+	.servicios-sidebar{
+
+			&-item {
+			width: 100%;
+			position: relative;
+			height: 70px;
+			@extend %inline-box;
+			@media (max-width: $small) {
+				font-size: 0.5em;
+				width: 49%;
+				height: 150px;
+				background:center;
+				margin: 0;
+				//fck no se puede extends con @media
+			}
+			@media (min-width:$small) and (max-width:$medium) {
+				font-size: 1em;				
+				width: 49%;
+				height: 150px;
+				background:center;
+				margin: 0;
+			}
+			a {
+				background-color: #0000005c;
+			    color: white;
+			    position: absolute;
+			    bottom: 5%;
+			    right: 10%;
+			    font-size: 2em;
+			    padding: 2%;
+			}
+			.servicios-sidebar-title { background-color: transparent;}			
+			}
+	}
+				
+/****************SideBars*** *************/
+	//este debe tener el nombre de sideba, si es de servicios o sctores
+	&#sidebarLeft {
+		width: $sidebarLeft;
+		order: 2;
+	}
+	
+	&#sidebarRight {
+		width: $sidebarRight;
+		order: 4;
+		@media (max-width: $medium) {
+			order: 3;
+			width: 100%;
+		}
+	}
+			
+	}	
+
+}

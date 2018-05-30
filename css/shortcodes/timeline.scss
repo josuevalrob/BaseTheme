@@ -1,0 +1,115 @@
+
+/**** timeline ****/
+#timeline {
+	width: 90vw;
+	height: auto;
+	overflow: hidden;
+	margin: 30px auto;
+	position: relative;
+}
+#dates {
+	width: 90vw !important;
+	margin: 0 !important;
+	height: 60px;
+	border-bottom: $prim-border;
+	border-width: $medium-border;
+	display: flex;
+	justify-content: space-between;
+}
+#dates li {
+	list-style: none;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	min-width: 5px;
+}
+#dates a {
+	line-height: 40px;
+}
+#dates a::before {
+	content: "";
+	height: 20px;
+	width: 2px;
+	background-color: $sec-color;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	opacity: 0.5;
+}
+#dates a:hover::before {
+	opacity: 1;
+}
+#dates a.selected::before {
+	height: 40px;
+	width: 5px;
+	bottom: -20px;
+	opacity: 1;
+}
+#dates .selected {
+	font-size: 38px;
+}
+#issues {
+    height: auto;
+    overflow: hidden;
+    padding-left: 0 !important;
+}	
+#issues li {
+	width: 90vw;
+	height: auto;
+	list-style: none;
+	float: left;
+}
+#issues li img {
+	float: left;
+	margin: 30px 30px 10px 50px;
+	background: transparent;
+	transition: all 1s ease-in-out;
+	width: 300px;
+	height: auto;
+}
+#issues li .flextime {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#issues li h1 {
+	color: $prim-color;
+	font-size: 30px;
+	margin: 30px 10px 0;
+	text-align: left;
+	width: 100%;
+}
+#issues li p {
+	font-size: 18px;
+	margin: 0 30px;
+	text-align: justify;
+	//border: 1px solid #275d9b;
+	@extend %inline-box;
+
+	padding: 20px;
+
+}
+		
+#next,
+#prev {
+	display: none !important;
+	position: absolute;
+	top: 0;
+	font-size: 70px;
+	top: 170px;
+	width: 22px;
+	height: 38px;
+	background-position: 0 0;
+	overflow: hidden;
+	
+}
+#next:hover,
+#prev:hover {
+	background-position: 0 -76px;
+}			
+#next.disabled,
+#prev.disabled {
+	opacity: 0.2;
+}

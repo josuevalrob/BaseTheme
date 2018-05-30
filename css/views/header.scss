@@ -1,0 +1,95 @@
+body {
+	
+	&.headerFix {
+		padding-top: $header-min;		
+	}
+	/**************Cabecera***********/
+	header {
+		border-bottom: $prim-border;
+		height: $header-max;
+		padding: $padding;
+		@extend %flex-full;
+		position: fixed;
+		width: 100%;
+		top: 0;
+		transition: $transition;
+		transition-property: $transition-property;
+		z-index: 9999;
+		background-color: $standar-color;
+		color: $prim-color;
+
+		&.headerFix {
+			height: $header-min;
+			padding: $padding / 2;
+
+			#enlacetitle {
+				font-size: 11px;
+			}		
+		}
+
+		#enlacetitle {
+			width: 100%;
+			margin-left: 19px;
+			transition: $transition;
+			transition-property: $transition-property;
+			
+			h1{
+				font-size: $logo-font;
+				@media (max-width: $small) {
+  					font-size: $logo-font / 2;
+  				}
+				@media (min-width:$small) and (max-width:$medium) {
+  					font-size: $logo-font / 1.33;
+  				}
+				font-weight: 100;
+				border-bottom: $sec-border;
+				display: inline-block;
+				//padding-right: 80px;
+			}
+		}
+
+		#enlacelogo {
+			height: 100%;
+
+			img {
+				height: 100%;
+			}
+		}
+		#categorias {
+			width: 100%;
+			height: 100%;
+			padding: $padding-side;
+			@extend %flex-end;
+
+			.menudiv {
+				position: relative;
+				margin: $margin-side;
+				padding: $padding-side;
+				color: $sec-color;
+				&.active {
+					background: $header-tab;
+					a { background-color: transparent;}
+				}
+				.enlaceheader {
+					font-weight: 200;
+				}
+
+				.barranavegacion {
+					position: absolute;
+					top: 100%;
+					height: 0;
+					opacity: 0;
+					transition: $transition;
+					transition-property: $transition-property;
+					padding: $padding;
+					
+				}
+				&:hover .barranavegacion {
+					height: auto;
+					opacity: 1;
+				}
+			}		
+		}
+	}
+}
+

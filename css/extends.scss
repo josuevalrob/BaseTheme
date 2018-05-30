@@ -1,0 +1,79 @@
+/* Scss Document */
+/*******Editar para cambiar las apariencias comunes***/
+/*Input*/
+%inputreset {
+	border: none;
+}
+%input {
+	padding:0 10px !important;
+	border:$standar-border;
+	width: calc(100% - 20px);
+	background:#fff;
+	border-radius:3px;
+	font-weight: 100;
+	font-size: 18px;
+	margin: 5px 10px 10px !important;
+}
+
+%inputhover {
+	border:$sec-border;
+	transition:$transition;
+}
+%inputactive {
+	border:$prim-border;
+	transition:$transition;
+}
+
+/*Label*/
+%labelinput {
+	font-size:22px;
+	font-weight:300;
+	text-align:left;
+}
+
+/*Button*/
+%botonreset {
+	background:none;
+	border:none
+}
+%boton {
+	background:$sec-color !important;
+	color:$sec-text !important;
+	border-radius:3px;
+	border:none;
+	box-shadow:$shadow;
+	margin: 10px 0 !important;
+	padding:10px 20px;
+	text-transform:uppercase;
+	cursor:pointer;
+	font-size:22px !important;
+	font-weight: 300;
+}
+%botonhover {
+	box-shadow:none;
+	background:$terc-color;
+	color:$terc-text;
+	transition:$transition;
+}
+
+%flex-full {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+%flex-end {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+%inline-box {
+	display: inline-block;
+	background-color: $water-mark;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	&:hover {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);		  
+	}
+}

@@ -1,0 +1,71 @@
+/* Scss Document */
+/***** Editar para cambiar colores, tamaños, bordes y sombras generales ***********/
+
+$prim-trans: rgba(255,255,255,0.0);
+$sec-trans: rgba(255,255,255,0.5);
+$terc-trans: rgba(0,0,0,0.5);
+
+$prim-color: #054984;
+$sec-color: #02703c;
+$terc-color: #700224;
+$water-mark: #ffffffed;
+$header-tab: #c1c1c11f;
+
+$prim-text: #ffffff;
+$sec-text: #eee;
+$terc-text: #ddd;
+
+$standar-color: #FAFAFA;
+$standar-text: #444;
+
+$standar-border: 1px solid $standar-color;
+$prim-border: 1px solid $prim-color;
+$sec-border:1px solid $sec-color;
+$terc-border:1px solid $terc-color;
+
+$medium-border: 3px;
+$large-border: 10px;
+
+$shadow: 1px 1px 2px rgba(0,0,0,.3);
+$text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.74);
+
+$transition: all 0.4s ease-in;
+$transition-property: height, width, padding, font-size, margin;
+
+$padding: 10px;
+$padding-side: 0px 10px;
+
+$margin: 15px;
+$margin-side: 0px 15px;
+
+$header-max: 100px;
+$header-min: 60px;
+
+$sidebarLeft: 20%;
+$sidebarRight: 30%;
+
+
+
+/* Using SCSS variables to store breakpoints */
+$small: 576px; //phablet
+$medium: 768px; // tablet
+$large: 992px; // windows desktop
+$exlarge: 1200px; // mac desktop ;)
+
+/*font size*/
+/*logo header*/
+$logo-font: 2em;
+/*banner*/
+$t-banner-font: 4em;
+$c-banner-font: 2.5em;
+
+@import "mixins";
+
+@include font-face(FiraSans, fonts/FiraSans-Light, 100, normal);
+@include font-face(FiraSans, fonts/FiraSans-Regular, 300, normal);
+@include font-face(FiraSans, fonts/FiraSans-Medium, 500, normal);
+@include font-face(FiraSans, fonts/FiraSans-Bold, 700, normal);
+@include font-face(FiraSans, fonts/FiraSans-LightItalic, 100, italic);
+@include font-face(FiraSans, fonts/FiraSans-Italic, 300, italic);
+@include font-face(FiraSans, fonts/FiraSans-MediumItalic, 500, italic);
+@include font-face(FiraSans, fonts/FiraSans-BoldItalic, 700, italic);

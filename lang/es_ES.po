@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BaseTheme\n"
+"POT-Creation-Date: 2018-04-02 08:30+0200\n"
+"PO-Revision-Date: 2018-04-02 08:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: lang\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: text.php:2
+msgid "catHead"
+msgstr "Menú automático por categorías"
+
+#: text.php:3
+msgid "widgetHead"
+msgstr "Menú hecho con widget"
+
+#: text.php:4
+msgid "menu"
+msgstr "Tipo de menú"
+
+#: text.php:5
+msgid "theme"
+msgstr "Estilo de tema"
+
+#: text.php:6
+msgid "home"
+msgstr "Slider de página principal"
+
+#: text.php:7
+msgid "active"
+msgstr "Activado"
+
+#: text.php:8
+msgid "home_dots"
+msgstr " - Paginación con puntos"
+
+#: text.php:9
+msgid "home_dots_style"
+msgstr " - Estilo de los puntos de paginación"
+
+#: text.php:10
+msgid "dotCirculos"
+msgstr "Círculos"
+
+#: text.php:11
+msgid "dotCircunferencias"
+msgstr "Circunferencias"
+
+#: text.php:12
+msgid "dotRayasVerticales"
+msgstr "Rayas verticales"
+
+#: text.php:13
+msgid "dotRayasHorizontales"
+msgstr "Rayas horizontales"
+
+#: text.php:14
+msgid "dotCuadrados"
+msgstr "Cuadrados"
+
+#: text.php:15
+msgid "dotHexagonos"
+msgstr "Hexágonos"
+
+#: text.php:16
+msgid "home_arrows"
+msgstr " - Navegación con flechas"
+
+#: text.php:17
+msgid "home_arrows_style"
+msgstr " - Estilo de las flechas de navegación"
+
+#: text.php:18
+msgid "arrowCirculos"
+msgstr "Círculos"
+
+#: text.php:19
+msgid "arrowCircunferencias"
+msgstr "Circunferencias"
+
+#: text.php:20
+msgid "arrowVerticales"
+msgstr "Rayas verticales"
+
+#: text.php:21
+msgid "arrowCuadrado"
+msgstr "Cuadrados"
+
+#: text.php:22
+msgid "arrowHexagonos"
+msgstr "Hexágonos"
+
+#: text.php:23
+msgid "home_autoplay"
+msgstr " - Reproducción Automática"
+
+#: text.php:24
+msgid "home_autoplaySpeed"
+msgstr " - Velocidad en milisegundos"
+
+#: text.php:25
+msgid "home_pauseonhover"
+msgstr " - Pausar cuando se coloca el ratón encima"
+
+#: text.php:26
+msgid "cat"
+msgstr "Slider en página de categoría"
+
+#: text.php:27
+msgid "cat_dots"
+msgstr " - Paginación con puntos"
+
+#: text.php:28
+msgid "cat_dots_style"
+msgstr " - Estilo de los puntos de paginación"
+
+#: text.php:29
+msgid "cat_arrows"
+msgstr " - Navegación con flechas"
+
+#: text.php:30
+msgid "cat_arrows_style"
+msgstr " - Estilo de las flechas de navegación"
+
+#: text.php:31
+msgid "cat_autoplay"
+msgstr " - Reproducción Automática"
+
+#: text.php:32
+msgid "cat_autoplaySpeed"
+msgstr " - Velocidad en milisegundos"
+
+#: text.php:33
+msgid "cat_pauseonhover"
+msgstr " - Pausar cuando se coloca el ratón encima"
+
+#: text.php:34
+msgid "singlePage"
+msgstr "Página única"
+
+#: text.php:35
+msgid "linkNavigation"
+msgstr "Navegación Estándar"
+
+#: text.php:36
+msgid "tabNavigation"
+msgstr "Navegación por pestañas"
+
+#: text.php:37
+msgid "theme_arrows"
+msgstr "Flechas ancla siguiente portada"
+
+#: text.php:38
+msgid "backtop"
+msgstr "Flecha volver al principio"
+
+#: text.php:39
+msgid "search"
+msgstr "Mostrar formulario de búsqueda en cabecera"
+
+#: text.php:40
+msgid "logo"
+msgstr "Mostrar logo en cabecera"
+
+#: text.php:41
+msgid "title"
+msgstr "Mostrar título en cabecera"
+
+#: text.php:42
+msgid "sticky"
+msgstr "Cabecera animada"
+
+#: text.php:43
+msgid "left"
+msgstr "Activar sidebar izquierdo"
+
+#: text.php:44
+msgid "left_mobile"
+msgstr "Sidebar izquierdo visible en móvil"
+
+#: text.php:45
+msgid "right"
+msgstr "Activar sidebar derecho"
+
+#: text.php:46
+msgid "right_mobile"
+msgstr "Sidebar derecho visible en móvil"
+
+#: text.php:47
+msgid "full"
+msgstr "Páginas de portada tamaño completo"
+
+#: text.php:48
+msgid "widget"
+msgstr "Activar footer con widget"
+
+#: text.php:49
+msgid "widget_mobile"
+msgstr "Footer visible en móvil"
+
+#: text.php:50
+msgid "text-1"
+msgstr "Texto subfooter 1"
+
+#: text.php:51
+msgid "link_text-1"
+msgstr "Enlace texto subfooter 1"
+
+#: text.php:52
+msgid "text-2"
+msgstr "Texto subfooter 2"
+
+#: text.php:53
+msgid "link_text-2"
+msgstr "Enlace texto subfooter 2"
+
+#: text.php:54
+msgid "text-3"
+msgstr "Texto subfooter 3"
+
+#: text.php:55
+msgid "link_text-3"
+msgstr "Enlace texto subfooter 3"
+
+#: text.php:56
+msgid "text-4"
+msgstr "Texto subfooter 4"
+
+#: text.php:57
+msgid "link_text-4"
+msgstr "Enlace texto subfooter 4"
+
+#: text.php:58
+msgid "text-5"
+msgstr "Texto subfooter 5"
+
+#: text.php:59
+msgid "link_text-5"
+msgstr "Enlace texto subfooter 5"

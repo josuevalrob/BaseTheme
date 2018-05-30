@@ -1,0 +1,298 @@
+/*nube de servicios*/
+
+.servicios {
+	&-item {
+		width: 40%;
+	    @extend %inline-box;
+	    @media (max-width: $small) {
+	        //font-size: 0.8em;
+	    	width: inherit;
+	    }
+	}
+	&-title {
+		font-size: 30px;
+		margin: 20px 20px 60px;
+		text-align: center;
+	}
+}
+
+/*nube de sectores*/
+.sectores {
+	text-align: center;
+	&-item {
+		width: 40%;
+	    @extend %inline-box;
+	    // esto no debería repetirse en sectores y en servicios.
+	    @media (max-width: $small) {
+	        //font-size: 0.8em;
+	    	width: inherit;
+	    }
+	}
+	&-title {
+		font-size: 30px;
+		margin: 20px 20px 60px;
+		text-align: center;
+	}
+}
+
+
+
+
+
+/*nube de logos*/
+.nubeClientes {
+	&-title { display:none;}
+}
+
+.entrservicios-2 .falsoboton, .entrservicios-2 .enviar {
+    background-color: #688EB9;
+}
+.entrservicios-2 .falsoboton a, .entrservicios-2 .falsoboton span, .entrservicios-2 .enviar input {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.entrservicios-2 .nubeClientes > div:hover{
+	filter: grayscale(0);
+	background-color: white !important;
+    border: 1px solid #ddd;
+}
+
+.nubeClientes.Sectores a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+@keyframes nube{
+	0%{opacity:1}
+	10%{opacity:0}
+	90%{opacity:0}
+	100%{opacity:1}
+}
+.entrservicios-2 .nubeClientes{
+	height:200px;
+	overflow:hidden;
+	margin-top:50px;
+	margin-bottom:30px;
+	@media (max-width: $small) {
+		height: 300px;
+	}
+}
+.entrservicios-2 .nubeClientes > div{
+	
+	position:relative;
+	filter: grayscale(0);
+	box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+}
+.carrouselServicios{
+	margin:20px 0
+}
+.carrouselServicios .slider{
+	height:180px;
+}
+.carrouselServicios .slick-slide{
+	height:180px !important;
+	margin:0 10px;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+	cursor:pointer;
+}
+.carrouselServicios .slick-slide a{
+	position: relative;
+    display: block;
+    height: 100%;
+}
+.carrouselServicios .slick-slide .title, .nubeClientes.Sectores > div > a >.title, .proyectosNube .item-inside .title{
+	width:100%;
+	text-align:center;
+	background:#275d9b;
+	color:#fff;
+	padding:5px;
+	
+}
+.carrouselServicios .slick-slide .content, .nubeClientes.Sectores > div > a > .content, .proyectosNube .item-inside .content{
+	width:100%;
+	text-align:center;
+	background:rgba(0,0,0,.6);
+	color:#fff;
+	position:absolute;
+	bottom:-180px;
+	font-size:14px;
+	padding:5px;
+	max-height: 180px;
+	
+}
+.carrouselServicios .slick-slide:hover  .content, .nubeClientes.Sectores > div:hover > a >.content, .proyectosNube .item-inside:hover .content{
+	
+	transition: bottom .5s;
+    bottom: 0;
+}
+
+.nubeClientes.Sectores > div:hover > a > .title, .carrouselServicios .slick-slide:hover .title, .proyectosNube .item-inside:hover .title {
+	opacity: 0;
+	transition:opacity .5s
+}
+
+.proyectosNube {
+	display: flex;
+	flex-wrap: wrap;
+}
+.proyectosNube .item-inside {
+	position: relative;
+	width: 320px;
+	height: 180px;
+	margin: 10px;
+	background-size: cover;
+	box-shadow:2px 2px 1px rgba(0,0,0,.3);
+	overflow: hidden;
+}
+.proyectosNube .enlaceNube {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.nubeClientes{
+	margin:auto;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nube.nubeClientes .enlaceNube.clientes {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.nubeClientes > div {
+	background-repeat: no-repeat;
+	filter: grayscale(1);
+	height: 90px;
+	width: 160px;
+	margin: 5px;
+	background-color: white;
+	border: 1px solid #ddd;
+	background-position: center center;
+	display: inline-block;
+	background-size:contain;
+}
+.nubeClientes.Partners > div {
+	height: 180px;
+	width: 320px;
+	filter: grayscale(0);
+}
+
+.nubeClientes > div:hover{
+	filter: grayscale(0);
+	background-color: transparent !important;
+	border-color:transparent;
+}
+
+
+
+.nubeClientes .title{
+	display:none;
+}
+.nubeClientes.Sectores .title{
+	display: block;
+}
+/*.nubeClientes.Sectores > div > .title {
+	display: block;
+	color: #fff;
+	background-color: #275d9b;
+	padding: 5px 10px;
+	font-size: 25px;
+	transition: all 0.6s ease;
+	opacity: 1;
+}
+
+.nubeClientes.Sectores > div > .content{
+	display:none;
+}*/
+
+
+.nubeClientes.Sectores > div{
+	background-repeat:no-repeat;
+	filter: grayscale(0);
+	height:180px;
+	width: 320px;
+	margin:10px;
+	background-color:white;
+	border:none;
+	background-position:center center;
+	display:inline-block;
+	position:relative;
+	box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+	cursor:pointer;
+	overflow:hidden;
+}
+
+.nubeCertificaciones{
+	width:100%;
+	margin:30px auto 0; 
+	text-align: center;
+}
+
+.nubeCertificaciones > div {
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    height: 210px;
+    width: 150px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #ddd;
+    background-position: center center;
+    display: inline-block;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.nubeCertificaciones > div:hover{
+	filter: grayscale(0%);
+}
+
+.nubeCertificaciones > div > a > .title {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -100%;
+	transition: all 0.5s ease;
+	background-color: #275d9b;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 200;
+	text-align: center;
+	color: #fff;
+}
+
+.nubeCertificaciones > div:hover > a > .title{
+	bottom:0;
+}
+
+.scroll {
+    position: relative;
+}
+.scroll .next {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	cursor: pointer;
+	margin: auto;
+	text-align: center;
+	font-size: 10px;
+	width: 40px;
+	padding: 10px;
+	animation: next 1.2s ease infinite;
+	z-index: 999;
+	color: #fff;
+}
+
+#nube55 {
+	text-align: center;
+}

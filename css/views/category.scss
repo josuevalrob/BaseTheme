@@ -1,0 +1,101 @@
+/*********tabs category************/
+body {
+	
+	#main {
+		
+		.cuerpotabs {
+			display: flex;
+			flex-wrap: wrap;
+			text-align: left!important;
+			@extend %inline-box;
+			
+			.slick-list {
+				width: 100%;
+				order: 2;
+			}
+			.tabcontent {				
+				position: relative;
+				
+				.tab-172, .tab-171 {
+					width: 100%;
+					img {
+						margin-left: auto;
+						margin-right: auto;
+					}
+				}
+			} 
+			.barratabs {
+				display: flex !important;
+				list-style: none;
+				order: 1;
+				width: 100%;
+				padding: $padding;
+				@media (max-width: $large) {
+					overflow: auto;
+				}
+				li {
+					padding: $padding;
+					font-size: 10px;
+					font-weight: 200;
+					line-height: 10px;
+					transition: $transition;
+					border-top: 3px solid transparent;
+					background: $header-tab;
+					margin: 0px 5px;
+
+					h2 { background: transparent; inline-size: max-content;}
+
+					&.slick-active {
+						border-top: 3px solid $prim-color;					
+					}
+				}
+				
+				li:hover {
+					background-color: $prim-color;
+					color: $prim-text;				
+				}
+			}
+		}
+		
+		.category {
+			width: 100%;
+			display: flex;
+			
+			.content {
+				position: relative;
+			}
+			
+			@media (max-width: $small) {
+				display: block;
+			}			
+			.left {
+				width:55%;
+				@media (max-width: $small) {
+					width: 100%;
+				}
+				@extend %inline-box;
+				text-align: left;
+				.title {
+					border-bottom: 1px solid $sec-color;
+					margin-bottom: 10px;
+					color: $prim-color;
+				}
+			}
+			.right {
+				width: 40%;
+				@media (max-width: $small) {
+					width: 100%;
+				}
+				@extend %inline-box;
+
+			}
+		&:nth-of-type(2n){
+			.left{
+				order: 2;
+				text-align: right;
+			}
+			.right { order: 1;}
+		}
+		}		
+	}	
+}

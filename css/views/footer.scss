@@ -1,0 +1,52 @@
+	/****************Footer *** *************/
+
+footer {
+		//margin-top: 20px;
+		order: 5;
+		width: 100%;
+		background-color: $prim-color;
+		color: $prim-text;
+		
+		#sidebarfooter {
+			display: flex;
+			justify-content: flex-start;
+			background-color: $sec-color;
+			color: $sec-text;
+			padding: $padding;
+			
+				.widget_text {
+					text-align: right;
+					width: 100%;
+					font-size: 0.8em;
+				}				
+			.widget {
+				margin: 0 $padding 0 0;
+				img {
+					 @extend %inline-box;
+					padding: 0;
+				}
+			}
+		}
+		
+		#subfooter {
+			display: flex;
+			justify-content: flex-end;
+			padding: $padding/2;
+			p {
+				text-align: right;
+				font-size: 10px;
+				font-weight: 300;
+				line-height: 12px;
+				a {
+					font-weight: 100;
+					margin: 0 $margin 0 0;
+					font-size: 12px;
+					@media (max-width: $small) {
+						width: 100%;
+						display: -webkit-inline-box;
+						padding: 10px;
+					}
+				}
+			}
+		}
+	}

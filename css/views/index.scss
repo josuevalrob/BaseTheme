@@ -1,0 +1,196 @@
+body {
+	#id-4 .content { 
+		padding: 8% 10%;
+		p {
+			padding: 5%;
+		}
+	}
+	#id-108 { 
+		background-size: cover;
+		.content p {
+			display: none;
+		}
+	}
+	// esto no debería estar aqui... sino en el scss de pages internas
+	.page:not(.page-formulario-empleo) {
+		.wrapper-box {
+			text-align: left;
+			@extend %inline-box;
+			.title{
+				text-align: left;					
+				border-top: 3px solid $prim-color;
+				background: $header-tab;
+				@extend %inline-box;
+			}
+			.content {
+			text-align: left;
+			padding: 10px;
+			position: relative;
+				.column {
+					@extend %inline-box;
+					text-align: left;
+				    width: 45%;
+				    display: inline-block;
+				}
+			}
+		}
+	}
+	.page-formulario-empleo	{
+		.wrapper-box{
+			.title{
+				display: none;			
+			}
+			.column	 { 
+				width: 45%;
+		    	display: inline-block;
+		    	@media (max-width: $small) {
+		    	    width: 100%;		    	    
+		    	}
+		    	&.formulario {
+		    		p {
+		    			@extend %inline-box;
+		    		}
+		    	}		    	
+				&#header-form {				
+					@extend %inline-box;
+					text-align: left;
+					    .title{
+					    	text-align: left;					
+					    	border-top: 3px solid $prim-color;
+					    	background: $header-tab;
+					    	@extend %inline-box;
+					    }
+						@media (max-width: $small) {
+				    		margin:0px;		    	    
+						}
+				}
+			}
+		}
+	}
+	.portada {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		background-color: transparent;
+		background-size: 100% auto;
+		&#id-servicios {
+			text-align:center;
+			font-size: 1em;
+			#body-servicios {
+				padding: 20px 20%!important;
+				.servicios {
+					text-align: center;
+					font-size: 1em;
+				}
+			}
+		}
+		&.parallax {
+			background-attachment: fixed;
+		}
+		&#id-nuestros-clientes{
+			@media (max-width: $small) {
+			background-size: cover;
+			background-position-x: 690px;
+			animation: 1s;
+			}
+			
+		}
+		&#id-presentacion-tres-servicios {
+			background-size: inherit;
+			overflow: auto;
+			/*saliendo al paso*/
+			.floating-box {
+			    width: 30%;
+			    @media (max-width: $small) {
+			        font-size: 0.8em;
+			    	width: inherit;
+			    }
+			    @extend %inline-box;
+			}
+		}
+		&#id-sectores {
+			background-size: inherit;
+		}
+		&#id-evolucion{
+			background-size: inherit;
+		}
+		&#id-contactanos{ 
+			background-size: cover;
+			.content {
+			text-align: center;				
+				.column {
+					display: inline-block;
+					width: 30%;
+					text-align: left;
+					@media (max-width: $small) {
+						width: inherit;
+					}
+				}
+				.subtitle {
+					text-align: left;
+					@extend %inline-box;
+					a {
+						background: #02020214;
+						cursor: pointer;
+						&:hover {
+							background: #0000003b;
+						}
+					}
+				}
+				.title { margin: 10px;}
+			}
+		}
+
+		&.full {
+			min-height: calc(100vh - #{$header-min});
+
+			.nextAnchor {					
+				bottom: 5px;
+			}				
+		}
+		.title {
+			@extend %inline-box;
+			font-size: 40px;
+			margin: 20px 20px 60px;
+		}
+		.content {
+			font-size: 20px;
+			padding: 20px 100px;
+			@media (max-width: $small) {
+				padding: 0px 30px;
+			}
+			@media (min-width: $large) {
+				&.content-142 {
+					position: absolute;
+					top: 50%;
+					height: 14em;
+					margin-top: -7em;
+				}
+			}			
+			p {
+				@extend %inline-box;
+			}
+		}
+		.nextAnchor {
+			width: 50px;
+			padding: 5px;
+			margin: 0 auto;
+			text-align: center;
+			margin: 0 auto;
+			bottom: -15px;
+			left: 0;
+			right: 0;
+			position: absolute;
+		}
+	}
+
+	.portada:last-of-type {
+
+		.nextAnchor {
+			display: none;
+		}
+	}
+}
+

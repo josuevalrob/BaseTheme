@@ -1,0 +1,2018 @@
+
+/******Nuevo CSS*****/
+header {
+
+  
+  color: #063276;
+  display: flex;
+  
+  justify-content: space-between;
+  overflow: visible;
+  top:0;
+  width: 100%;
+  z-index: 5555;
+    transition: all 0.5s ease;
+}
+.headerFloat {
+    position: absolute;
+    height: 80px;
+}
+#blog2.headerFloat {
+}
+
+.headerFix {
+    position:fixed;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 1);
+    color: #063276;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+}
+#blog2.headerFix {
+    background-color: #275d9b;
+}
+#blog3.headerFix {
+    background-color: #807F7E;
+}
+.headerFix #logo {
+    height:45px;
+    
+}
+ #enlacelogo:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+.headerFix .enlaceheader {
+    color: #063276;
+    line-height:40px
+}
+.headerFix .enlaceheader:hover, .headerFloat .enlaceheader:hover {
+    color: #6aafff;
+}
+
+.headerFix .menudiv:hover .barranavegacion {
+    background:#fff;
+    top: 60px;
+}
+.headerFloat:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.4);
+}
+#blog2.headerFloat:hover {
+    background-color: rgba(39, 93, 155, 0.8);
+}
+#blog2 #searchbutton {
+    color: #fff;
+    transition: all 0.5s ease; 
+}
+header#blog2:hover #searchbutton, .headerFix#blog2  #searchbutton {
+    color: #fff;
+}
+#searchbutton {
+    color: #fff;
+    transition: all 0.5s ease; 
+}
+header:hover #searchbutton, .headerFix  #searchbutton {
+    color: #275D9B;
+}
+.headerFix  #searchbutton:hover, .headerFloat #searchbutton:hover{
+    color:#6aafff
+}
+
+#logo {
+  height: 65px;
+  margin: 10px;
+  transition:height 0.5s ease;
+}
+#categorias {
+    overflow: visible;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right:20px;
+}
+.menudiv{
+    position:relative;
+    height:100%;
+    
+}
+.menudiv:hover {
+    background: white;
+}
+#blog2 .menudiv:hover {
+    background: #275D9B;
+}
+.enlaceheader {
+      color: #fff;
+    cursor: pointer;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 60px;
+    padding: 10px 30px;
+    text-decoration: none;
+    height: 100%;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+#blog2 .enlaceheader {
+    color: #fff;
+}
+header#blog2:hover .enlaceheader {
+    color: #fff;
+}
+header:hover .enlaceheader {
+    color: #275D9B;
+}
+.barranavegacion {
+  background-color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    overflow: hidden;
+    width: auto;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .5s ease 0s;
+}
+.barranavegacion a {
+    color: #275D9B;
+    transition: all 0.5s ease;        
+}
+.barranavegacion a:hover {
+    text-decoration:underline;
+    color: #6aafff;
+        
+}
+.barranavegacion p {
+    padding:5px 0;
+        
+}
+
+.dropdownIdiomas{
+    width:120px;
+    height:24px;
+}
+
+.dropdownIdiomas option{
+    padding: 5px 0 5px 30px;
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+
+#slider {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0;
+    z-index: 9;
+}
+#slider.portada {
+    height:100vh;
+}
+#img1 {
+  height: auto;
+  width: 100%;
+}
+.menudiv:hover .barranavegacion {
+    display: block;
+    height: auto;
+    opacity: 1;
+    padding: 0 10px;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.2);
+    width: 100%;
+    top: 80px;
+    background:#fff
+}
+.barratabs, .barratabs.slick-slider {
+     border-bottom: 1px solid #275d9b;
+    background-color:#fff;
+}
+.barratabs .slick-active h2 {
+    font-weight: bold;
+}
+.barratabs {
+    position: absolute;
+    width: 100%;
+    display: flex !important;
+    top: 0;
+    list-style: none;
+    padding: 10px 0 0; 
+}
+
+
+.barratabs h2 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 30px;
+    cursor: pointer;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    line-height: 18px;
+}
+.barratabs h2:hover {
+    border-bottom:  3px solid #275d9b;
+}
+.barratabs .slick-active  h2{
+    border-bottom:  3px solid #275d9b;
+}
+.tabcontent {
+  padding: 80px 15vw 30px;
+}
+.cuerpotabs .slick-slide {
+    height: auto !important;
+}
+.slick-arrow{
+    z-index:999 !important;
+}
+
+.slick-arrow:before{
+    color:#000 !important;
+}
+.slick-arrow:before:hover{
+    color:#6aafff !important;
+    transform:translate
+}
+
+.slick-arrow.slick-prev{
+    left:0;
+}
+.slick-arrow.slick-next{
+    right:0;
+}
+.slick-prev:before, .slick-next:before {
+    
+    font-size: 32px !important;
+}
+.slick-arrow.slick-disabled{
+    animation:none !important
+}
+
+#main {
+    position: relative;
+    margin-bottom: 30px;
+    min-height: calc(100vh - 258px);
+}   
+#main::after {
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    content: '';
+    width: 100%;
+    padding-top: 40px;
+    background-color: #fff;
+    transform: skew(0, 1deg);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+    z-index: 20;
+}
+#categoria {
+    position: relative;
+    width: 100%;
+}
+@keyframes title {
+    from {top: 570px;}
+    to {top: 400px;}
+}
+
+.tituloCategoria {
+    font-size: 75px;
+    font-weight: 600;
+    left: 40px;
+    position: absolute;
+    bottom: 10px;
+    z-index: 999;
+    animation-name: title;
+    animation-duration: 0.8s;
+    margin-left: 20px;
+    color: #fff;
+    transform-origin: bottom left;
+    line-height: 1.1;
+}
+
+#anchor {
+  position: absolute;
+  top: 400px;
+}
+
+
+.principal h2 {
+    font-size: 6em;
+    display: block;
+    font-weight: 600;
+    background-image:none !important;
+    color: #275d9b !important;
+    margin:30px 0 30px -10%;
+    text-shadow:2px 2px 1px rgba(0,0,0,.2);
+}
+
+.principal p{
+    margin:20px 0;
+    font-size:18px
+}
+
+.principal blockquote{
+    float:left;
+    margin-left:20px;
+}
+.principal blockquote p{
+    font-size:28px;
+    font-weight:bold;
+    font-style:italic;
+    color:#777
+}
+
+.principal strong, #issues strong{
+    color:#275d9b
+}
+
+.principal.entrservicios-2 strong{
+    color:#fff;
+}
+
+.falsoboton, .enviar{
+    display: inline-flex;
+    margin: 10px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: #275D9B;
+    float:right
+}
+.falsoboton a, .falsoboton span, .enviar input{ 
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    z-index: 4;
+    margin: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.falsoboton:hover::after,.enviar:hover::after {
+    height: 450%;
+}
+.falsoboton::after, .enviar::after {
+    background: rgba(255,255,255,0.3);
+    transform: translateX(-50%) translateY(-50%) rotate(-25deg);
+    content: "";
+    position: absolute;
+    height: 0%;
+    left: 50%;
+    top: 50%;
+    width: 150%;
+    z-index: 3;
+    transition: all 0.75s ease 0s;
+}
+.enviar .ajax-loader {
+    position: absolute;
+}
+.principal {
+    min-height: 100vh;
+    padding: 60px 15% 20px;
+    width: 100%;
+    border-top: 1px solid #c7c2c8;
+    position: relative;
+    background-color: #fff;
+    z-index: 3;
+}
+.principal:nth-child(2n)::before {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    content: '';
+    width: 100%;
+    padding-top: 40px;
+    background: inherit;
+    transform: skew(0, -1deg);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2) inset;
+}
+.principal:nth-child(2n )::after {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    content: '';
+    width: 100%;
+    padding-top: 40px;
+    background: inherit;
+    transform: skew(0, 1deg);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+}
+.principal:nth-child(2n +1) {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    z-index: 2;
+    min-height: calc(100vh + 35px);
+}
+.principal.entrinnovacion{
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+}
+
+.principal:first-child::before {    
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+/****************************Carrouse proyectos*********************/
+.sliderproyectos {
+    margin-top: 50px;
+}
+.sliderproyectos  .item-inside.slick-current {
+    transform: scale(1.15);
+}
+.sliderproyectos  .item-inside {
+    max-height: 300px;
+    margin: 20px;
+    background-size: cover;
+    transition: all 0.5s ease, border 0.1s;
+    position: relative;
+    box-sizing: border-box; 
+    border: 0px solid #275D9B;
+    box-shadow:2px 2px 5px rgba(0,0,0,.2)
+}
+
+
+.sliderproyectos  .item-inside:hover {
+    border: 5px solid #275D9B;
+}
+
+.sliderproyectos .item-inside .title {
+    color: #275D9B;
+    text-align: center;
+    font-size: 22px;
+    position:absolute;
+    top:-35px;
+    width:100%;
+    text-align:center;
+    transition:top .1s;
+    padding-bottom:10px
+}
+.sliderproyectos  .item-inside:hover .title {
+    font-weight:500;
+    color:#6aafff;
+    top:-40px;
+    transition:top .1s;
+}
+.sliderproyectos .slick-track, .sliderproyectos  .slick-list{
+    overflow: visible;
+}
+.sliderproyectos .item-inside  .content {   
+    display:none;
+}
+.sliderproyectos .item-inside  .logo {  
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    transition: all 0.5s ease;
+}
+.item-inside:hover  .logo {
+    opacity: 1;
+}
+/*****BUSCADOR******/
+
+.menudiv.searchform{
+    display: flex;
+    align-items: center;
+    
+    padding: 10px;
+    cursor:pointer;
+}
+.menudiv.searchform i{
+    font-size: 25px;
+}
+.menudiv.searchform form{
+    display:none;
+    margin-right: 10px;
+}
+
+.menudiv.searchform form input{
+   padding:5px;
+   border:1px solid transparent
+}
+
+
+
+/*******BACK TOP*******/
+
+@keyframes backtop{
+    0%   {top:0}
+   
+    100% {top:-5px}
+}
+
+.backtop{
+    position:fixed;
+    bottom:-100px;
+    right:0;
+   margin:20px;
+   padding:10px;
+   border-radius:2px;
+    cursor:pointer;
+    color:white;
+    background:rgba(0,0,0,.4);
+    font-size:10px;
+    transition:bottom .5s;
+    z-index:999;
+}
+.backtop i{
+    position:relative
+}
+.backtop:hover i{
+   
+    animation:backtop 1s infinite;
+}
+
+
+
+
+/*#slider .content {
+    margin-top: -60px;
+    transition: all 0.6s ease 0.1s;
+    margin-left: 100px;
+    font-size: 50px;
+    color: #fff !important;
+}
+
+#slider .slick-active .content {
+    margin-top: 300px;
+     transition-delay: 1s;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barratabs .slick-dots {
+    bottom: auto;
+    top: -10px;
+    z-index: 12;
+    width: 100%;
+    display: flex;
+}
+.barratabs .slick-dots li {
+    width: 100%;
+    background-color: rgba(0,0,0,0.2);
+    margin: 0;
+    height: 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.barratabs .slick-dots li.slick-active {
+    background-color: rgba(0,0,0,0.6);
+}
+.barratabs .slick-dots li button {
+    display: none;
+}
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+    height: 100%;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+.idiomas-content {
+    height: 0;
+    position: absolute;
+    background-color: #fff;
+    min-width: 150px;
+    overflow: hidden;
+    box-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+    z-index: 1;
+    right:0;
+    transition: all 0.5s ease;
+}
+.idiomas-content ul {
+    padding: 0
+}
+.idiomas-content li {
+    padding: 5px 10px;
+    list-style: none;
+}
+
+.idiomas-content a {
+    color: #000;
+    padding: 7px 40px;
+    text-decoration: none;
+    display: block;
+    background-position: 10px center;
+}
+.dropdown a:hover span {
+    color:#6aafff
+}
+.show {
+    height: 180px;
+    opacity: 1;
+}
+.wpcf7-form-control {
+    width: 100%;
+    border: 1px solid #275D9B;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px 0 10px;
+    font-weight: 400;
+}
+
+.wpcf7-form-control:focus, input:focus, .menudiv.searchform form input:focus{
+    border:1px solid #6aafff;
+    transition:border .2s;
+}
+
+.wpcf7-form label {
+    font-weight: 600;
+}
+footer {
+    background:url("../img/PatternBlueTriangles.jpg");
+    padding: 40px 20px 20px;
+    color: #fff;
+}
+#sidebarfooter {
+    display: flex;
+}
+#sidebarfooter .widget {
+    margin: 0 20px;
+}
+#sidebarfooter .widget-title {
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+}
+#sidebarfooter .widget .image {
+    height: 50px !important;
+    width: auto;
+    margin: 10PX auto;
+}
+/***********EXPERIENCIA INDEX*************/
+
+.entrservicios-2{
+    background:url("../img/PatternBlueTriangles.jpg")
+}
+
+.entrservicios-2 h2, .entrservicios-2 p{
+    color:#fff !important;
+}
+.entrservicios-2 .falsoboton, .entrservicios-2 .enviar {
+    
+    background-color: #688EB9;
+}
+.entrservicios-2 .falsoboton a, .entrservicios-2 .falsoboton span, .entrservicios-2 .enviar input {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.entrservicios-2 .nubeClientes > div:hover{
+    filter: grayscale(0);
+    background-color: #ededed !important;
+    border: 1px solid #ddd;
+}
+
+.nubeClientes.Sectores a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+@keyframes nube{
+    0%{opacity:1}
+    10%{opacity:0}
+    90%{opacity:0}
+    100%{opacity:1}
+}
+.entrservicios-2 .nubeClientes{
+    height:200px;
+    overflow:hidden;
+    margin-top:50px;
+    margin-bottom:30px;
+}
+.entrservicios-2 .nubeClientes > div{
+    
+    position:relative;
+    filter: grayscale(0);
+    box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+}
+.entrservicios-2 .nubeClientes > div:before{
+    content:"";
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background:#ededed;
+    animation:nube 5s infinite;
+    transition:opacity .3s;
+}
+.carrouselServicios{
+    margin:20px 0
+}
+.carrouselServicios .slider{
+    height:180px;
+}
+.carrouselServicios .slick-slide{
+    height:180px !important;
+    margin:0 10px;
+    box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+    cursor:pointer;
+}
+.carrouselServicios .slick-slide a{
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.carrouselServicios .slick-slide .title, .nubeClientes.Sectores > div > a >.title, .proyectosNube .item-inside .title{
+    width:100%;
+    text-align:center;
+    background:#275d9b;
+    color:#fff;
+    padding:5px;
+    
+}
+.carrouselServicios .slick-slide .content, .nubeClientes.Sectores > div > a > .content, .proyectosNube .item-inside .content{
+    width:100%;
+    text-align:center;
+    background:rgba(0,0,0,.6);
+    color:#fff;
+    position:absolute;
+    bottom:-180px;
+    font-size:14px;
+    padding:5px;
+    max-height: 180px;
+    
+}
+.carrouselServicios .slick-slide:hover  .content, .nubeClientes.Sectores > div:hover > a >.content, .proyectosNube .item-inside:hover .content{
+    
+    transition: bottom .5s;
+    bottom: 0;
+}
+
+.nubeClientes.Sectores > div:hover > a > .title, .carrouselServicios .slick-slide:hover .title, .proyectosNube .item-inside:hover .title {
+    opacity: 0;
+    transition:opacity .5s
+}
+
+/************CATEGORIA**************/
+
+.bloqueAzul {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+   overflow:hidden;
+    top: 0;
+}
+.bloqueAzul img{
+    width:100%;
+    opacity:0.9;
+}
+
+#bloqueAzul1{
+    
+     right: 88vw;
+}
+
+#bloqueAzul2{
+    transform: rotate(180deg);
+    right: -88vw;
+}
+
+
+#categoria.fixed {
+    position:fixed;
+    top:-400px;
+    z-index:99
+}
+
+#main.fixed .barratabs{
+    position:fixed;
+    top:150px;
+    z-index:99
+}
+
+
+#main.fixed{
+    margin-top:550px
+}
+
+.tabcontent object {
+        max-width: 800px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+}
+
+/************SOLUCIONES*****************/
+
+
+.Soluciones{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+.Soluciones > div{
+        width: 49%;
+    display: inline-block;
+    padding: 30px;
+    vertical-align: top;
+}
+.Soluciones .imagen{
+}
+.Soluciones .imagen img{
+    max-width: 100%;
+    max-height:400px;
+    width:auto;
+    margin:0 auto;
+
+
+}
+.Soluciones .caracteristicas{
+    text-align: left;
+    padding:30px 0;
+    font-size:18px
+}
+.Soluciones .caracteristicas p{
+    font-size: 30px;
+    border-bottom: 2px solid #275d9b;
+}
+.Soluciones .caracteristicas div{
+    margin: 10px 0 0;
+        width: 49%;
+    display: inline-block;
+}
+.Soluciones .caracteristicas div i{
+    
+    color: #275d9b;
+    padding: 15px;
+    font-size: 26px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.Soluciones .caracteristicas div span{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.Soluciones .verproyecto{
+    width: 100%;
+    display: block;
+    padding: 0;
+    position:relative
+}
+.Soluciones .verproyecto a{
+    position:absolute;
+    right:0;
+    top:-100px;
+    display:inline-block;
+    width:180px;
+    padding:10px 20px;
+    text-align:center;
+    border:2px solid #275d9b;
+    color:#275d9b;
+    font-size:18px;
+}
+.Soluciones .verproyecto a:hover{
+    transform:none;
+    background:#275d9b;
+    color:#fff;
+}
+
+
+/*****************************************************************************************/
+
+.nubeClientes{
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nubeClientes > div {
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    height: 90px;
+    width: 160px;
+    margin: 5px;
+    background-color: #ededed;
+    border: 1px solid #ddd;
+    background-position: center center;
+    display: inline-block;
+    background-size:contain;
+}
+.nubeClientes.Partners > div {
+    height: 180px;
+    width: 320px;
+    filter: grayscale(0);
+}
+
+.nubeClientes > div:hover{
+    filter: grayscale(0);
+    background-color: transparent !important;
+    border-color:transparent;
+}
+
+
+
+.nubeClientes > div > a > .title{
+    display:none;
+}
+.nubeClientes.Sectores > div > a >.title{
+    display: block;
+}
+/*.nubeClientes.Sectores > div > .title {
+    display: block;
+    color: #fff;
+    background-color: #275d9b;
+    padding: 5px 10px;
+    font-size: 25px;
+    transition: all 0.6s ease;
+    opacity: 1;
+}
+
+.nubeClientes.Sectores > div > .content{
+    display:none;
+}*/
+
+
+.nubeClientes.Sectores > div{
+    background-repeat:no-repeat;
+    filter: grayscale(0);
+    height:180px;
+    width: 320px;
+    margin:10px;
+    background-color:#ededed;
+    border:none;
+    background-position:center center;
+    display:inline-block;
+    position:relative;
+    box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+    cursor:pointer;
+    overflow:hidden;
+}
+
+.nubeCertificaciones{
+    width:100%;
+    margin:30px auto 0; 
+    text-align: center;
+}
+
+.nubeCertificaciones > div {
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    height: 210px;
+    width: 150px;
+    margin: 5px;
+    background-color: #ededed;
+    border: 1px solid #ddd;
+    background-position: center center;
+    display: inline-block;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.nubeCertificaciones > div:hover{
+    filter: grayscale(0%);
+}
+
+.nubeCertificaciones > div > a > .title {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    transition: all 0.5s ease;
+    background-color: #275d9b;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    color: #fff;
+}
+
+.nubeCertificaciones > div:hover > a > .title{
+    bottom:0;
+}
+
+.scroll {
+    position: relative;
+}
+.scroll .next {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+    width: 40px;
+    padding: 10px;
+    animation: next 1.2s ease infinite;
+    z-index: 999;
+    color: #fff;
+}
+
+
+.principal .next {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+    width: 40px;
+    padding: 10px;
+    animation: next 1.2s ease infinite;
+    color: #275d9b;
+}
+.principal.entrcontacto .next {
+    display:none !important;
+}
+#servicios-2.principal .next {
+    color: #fff;    
+}
+
+@keyframes next {
+    0% {height: 38px;}
+    70% {height: 42px;}
+    100% {height: 38px;}
+}
+
+
+.tabcontent .Contacto {
+    justify-content: center;
+}
+
+.tabcontent .Contacto .Mapa {
+    display:none
+}
+
+.Counters {
+    margin: 30px auto;
+    border-top: 3px solid #ddd;
+    border-bottom: 3px solid #ddd;
+    padding: 30px 0;
+}
+.Counter {
+        width: 23%;
+    display: inline-block;
+    text-align: center;
+    color: #275d9b;
+    margin: 0 1%;
+}
+
+.Counter > .stats-desc {
+    font-size: 4em;
+}
+
+.Indicador {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.Certificaciones{
+    text-align:center;
+}
+
+.Certificaciones img {
+    display: inline-block !important;
+    width: 250px;
+    height: auto !important;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+
+.contactForm, .Mapa{
+    width:48%;
+    display:inline-block;
+    overflow:hidden
+}
+
+.principal.entrempresa{
+    
+    background:url("../img/PatternWhiteTriangles.jpg");
+}
+
+.principal.entrcontacto{
+    
+    
+}
+
+.Mapa{
+    padding-top:45px
+}
+
+/*.contactForm > div{
+    width:450px;
+}*/
+.cd-timeline-navigation {
+display: none;
+}
+
+.Contacto{
+    display:flex;
+    justify-content:space-around;
+}
+.Contacto textarea{
+    height:120px
+}
+.Contacto p{
+    margin:10px 0 0
+}
+
+
+/**********CASOS EXITO***************/
+
+.Casos{
+    /*width:80%;*/
+    margin:0 auto;
+    text-align:center
+}
+
+#Portales1{
+    background:url('http://172.20.1.89/dimatica/wp-content/uploads/2017/11/imesAPI_sociosanitario.png');
+    background-size:100%
+}
+#Portales1:hover{
+    background:url('http://172.20.1.89/dimatica/wp-content/uploads/2017/11/grupoImesapi.png');
+    background-position:center center;
+}
+
+
+#Portales2{
+    background:url('http://172.20.1.89/dimatica/wp-content/uploads/2017/11/cobraI.png');
+    background-size:100%
+}
+#Portales2:hover{
+    background:url('http://172.20.1.89/dimatica/wp-content/uploads/2017/11/cobra.png');
+    background-position:center center;
+}
+
+#Portales3{
+    background:url('http://172.20.1.89/dimatica/wp-content/uploads/2017/11/amv1.png');
+    background-size:100%
+}
+#Portales3:hover{
+    background:url('http://172.20.1.89/dimatica/wp-content/uploads/2017/11/amv.png');
+    background-position:center center;
+}
+
+#Portales4{
+    background:url('http://172.20.1.89/dimatica/wp-content/uploads/2017/11/museoteatro000.png');
+    background-size:100%
+}
+#Portales4:hover{
+    background:url('');
+    background-position:center center;
+}
+
+.casoexito{
+    width: 300px;
+    height: 200px;
+    border: 2px solid #aaa;
+    background-size: 100%;
+    display:inline-block;
+    margin:0 10px;
+    background-repeat:no-repeat !important;
+}
+.casoexito:hover{
+    border:7px solid #275d9b;
+    cursor:pointer;
+    transition:border .2s;
+}
+
+
+/*********************************SINGLE PROYECTO***************************/
+
+#contenido {
+    display: flex;
+    flex-wrap: wrap;
+}
+#contenido h3 {
+    margin: 10px 0;
+    border-bottom: 3px solid #275d9b;
+    padding: 10px 200px 0 10px;
+}
+.logoProyecto {
+    width: 320px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px 30px;
+    border: 1px solid #275d9b;
+}
+
+.logoProyecto > div {
+    transition: all 0.6s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.frontal {
+    opacity: 1;
+}
+.logoProyecto:hover .frontal {
+    opacity: 0;
+}
+.trasero {
+    opacity: 0;
+}
+.logoProyecto:hover .trasero {
+    display: block;
+    opacity: 1;
+}   
+.bloquedoble {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mitad {
+    width: 50%;
+}
+.tercio {
+    width: 32%;
+}
+.dostercios{
+    width:65%;
+}
+
+#galeria {
+    width: 100%;
+}
+#sectores a {
+    display: inline-block;
+    border: 1px solid #305c9b;
+    padding: 10px;
+    margin-right:5px;
+    margin-bottom:5px;
+    width: max-content;
+}
+#sectores a:hover {
+    
+    border: 1px solid #6aafff;
+    color:#6aafff;
+    transition:all .2s;
+}
+
+#sectores > div, #caracteristicas > div{
+    padding-left:10px
+}
+
+#sectores > div{
+    display:inline-block
+}
+
+.bloquedoble h3 {
+   margin: 20px 0;
+    border-bottom: 3px solid #275d9b;
+    padding: 2px 10px;
+    width: 100%;
+    max-width: 400px;
+    display: inline-block;
+}
+.todoProyecto {
+    display: flex;
+}
+.descripcion {
+    margin: 10px 0;
+    width: calc(100% - 368px);
+    padding-right: 10px;
+}
+.descripcion p {
+    text-align: justify;
+}
+    
+#caracteristicas i {
+    margin: 5px 0;
+    color: #275d9b;
+    font-size: 25px;
+    line-height: 25px;
+    width: 40px;
+    text-align: center;
+}
+#caracteristicas p {
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+#proyectoSingle{
+    padding: 10px 15% 20px;
+}
+
+#visor{
+    padding:5px;
+    border:2px solid #275d9b;
+}
+
+#visor .slick-slide{
+    
+    border-bottom: 0;   
+}
+
+#carrousel {
+    background-color: rgba(39, 93, 155, 0.3);
+    padding:5px;
+    border: 2px solid transparent;
+    border-top:none
+}
+#carrousel .slick-list.draggable {
+    overflow: hidden;
+    margin: 0 50px;
+    padding: 0 !important;
+}
+#carrousel .slick-slide {
+    margin: 5px;
+    height: auto;
+    border: 2px solid #fff;
+    overflow: hidden;
+    cursor: pointer;
+}
+#carrousel .slick-slide.slick-current {
+   
+    border: 2px solid #275d9b;
+}
+#carrousel .slick-slide:hover {
+    opacity:.8
+}
+#carrousel .slick-slide.slick-current > * {
+    filter: grayscale(0%);
+}
+#carrousel .slick-slide:hover > * {
+    filter: grayscale(0%);
+}
+#carrousel .slick-slide > * {
+    filter: grayscale(100%);
+}
+#carrousel .slick-arrow {
+    width: 45px;
+    height: 100%;
+}
+#carrousel .slick-arrow::before {
+    color: #fff !important;
+}
+#carrousel .slick-arrow:hover {
+    background-color: #275d9b;
+    height: 100%;
+}
+#proyectoSingle h3 {
+    font-weight: 400;
+    color: #275d9b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#timeline {
+    width: 70vw;
+    height: auto;
+    overflow: hidden;
+    margin: 30px auto;
+    position: relative;
+}
+#dates {
+    width: 70vw !important;
+    margin: 0 !important;
+    height: 60px;
+    border-bottom: 2px solid #275d9b;
+    display: flex;
+    justify-content: space-between;
+}
+#dates li {
+    list-style: none;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    min-width: 40px;
+}
+#dates a {
+    line-height: 40px;
+}
+#dates a::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background-color: #275d9b;
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.5;
+}
+#dates a:hover::before {
+    opacity: 1;
+}
+#dates a.selected::before {
+    height: 20px;
+    width: 20px;
+    bottom: -11px;
+    opacity: 1;
+}
+#dates .selected {
+    font-size: 38px;
+}
+#issues {
+    height: auto;
+    overflow: hidden;
+    padding-left: 0 !important;
+}   
+#issues li {
+    width: 70vw;
+    height: auto;
+    list-style: none;
+    float: left;
+}
+#issues li.selected img {
+    transform: scale(1);
+}
+#issues li img {
+    float: left;
+    margin: 30px 30px 10px 50px;
+    background: transparent;
+    transition: all 1s ease-in-out;
+    transform: scale(0.6,0.6);
+    width: 300px;
+    height: auto;
+}
+#issues li h1 {
+    color: #275d9b;
+    font-size: 30px;
+    margin: 60px 20px 20px;
+    text-align: left;
+}
+#issues li p {
+    font-size: 18px;
+    clear: both;
+    width: 75%;
+    margin: 30px auto;
+    text-align: justify;
+    top: 30px;
+    position: relative;
+}
+        
+#next,
+#prev {
+    display: none !important;
+    position: absolute;
+    top: 0;
+    font-size: 70px;
+    top: 170px;
+    width: 22px;
+    height: 38px;
+    background-position: 0 0;
+    overflow: hidden;
+    
+}
+#next:hover,
+#prev:hover {
+    background-position: 0 -76px;
+}           
+#next.disabled,
+#prev.disabled {
+    opacity: 0.2;
+}
+#blog2.headerFix .enlaceheader {
+    color: #fff;
+}
+
+
+.
+background: linear-gradient(153deg, #275d9b, #bbc1c7);
+background-size: 400% 400%;
+
+animation: Background 2s ease infinite;
+
+@keyframes Background {
+    0%{background-position:0% 57%}
+    50%{background-position:100% 44%}
+    100%{background-position:0% 57%}
+}
+
+
+/********PESTAÑAS PRUEBA********/
+
+.barratabs {
+    position: absolute;
+    width: 100%;
+    display: flex !important;
+    top: 0;
+    list-style: none;
+    padding: 5px 0 0;
+    border-bottom: 3px solid #fff;
+    background:#ddd;
+    overflow:hidden;
+}
+
+.barratabs li{
+    
+    background: #ccc;
+    padding: 5px 0 0;
+    margin: 0 5px;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    bottom: -5px;
+    transition:all .2s;
+}
+.barratabs li:hover{
+    
+    background: #d3d3d3;
+    bottom: -3px;
+    transition:bottom .2s;
+}
+
+.barratabs li.slick-active{
+    padding: 5px 0 0;
+    background: #fff;
+    box-shadow: 3px -1px 1px rgba(0,0,0,.1);
+    bottom: 0;
+    transition:all .2s;
+}
+.barratabs li a{
+    color: #444;
+}
+.barratabs li.slick-active a{
+    color: #275d9b;
+}
+.barratabs .slick-active h2 {
+    border-bottom: 5px solid #ffffff;
+}
+.barratabs h2{
+    background:transparent
+}
+.barratabs h2:hover {
+    border-bottom: 5px solid transparent;
+}
+
+/*PESTAÑAS PRUEBA 2*/
+
+.barratabs li.slick-active {
+   
+    box-shadow: 0 3px 5px rgba(0,0,0,.2), 0 2px 0 0 inset #6aafff;
+    border: 1px solid #275d9b;
+    border-top-color: #6aafff;
+    bottom: -1px;
+    z-index: 10;
+    border-radius: 2px 2px 0 0;
+}
+.barratabs li.slick-active:hover {
+   background:#fff
+}
+.barratabs li.slick-active:hover a {
+   color:#275d9b
+}
+.barratabs li {
+    margin: 0;
+    border-radius: 0;
+    background:transparent;
+    
+}
+.barratabs li:hover {
+   
+    background:#bbb;
+    
+}
+.barratabs li a {
+   color:#777
+}
+.barratabs li:hover a {
+   
+    color:#444
+}
+.barratabs::after {
+    content: "";
+    border-bottom: 1px solid #bbb;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.barratabs li.slick-active {
+    box-shadow: 0 3px 5px rgba(0,0,0,.2), inset 0 2px 0 0 #6aafff;
+    z-index: 10;
+    border: 1px solid #bbb;
+        border-top-color: rgb(39, 93, 155);
+    border-top-color: #6aafff;
+    bottom: -1px;
+}
+
+
+/*******SLIDER PROYECTOS********/
+
+.sliderproyectos{
+    width:80vw;
+    position:absolute !important;
+    left:0;
+    right:0;
+    margin:100px auto 0;
+}
+.sliderproyectos .slick-arrow.slick-prev{
+    left:-10vw;
+}
+.sliderproyectos .slick-arrow.slick-next{
+    right:-10vw;
+}
+.sliderproyectos button.slick-arrow {
+    height: 100%;
+    width: 5vw;
+    background:transparent;
+}
+.sliderproyectos button.slick-arrow:hover {
+    background: rgba(255,255,255,.5);
+}
+
+
+
+
+/**********Detalle Solucion Shortcode**************/
+
+.solucion .detail {
+    width: 320px;
+    height: 180px;
+    float: left;
+    position: relative;
+    margin: 0 20px;
+}
+.solucion .detail > div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+.solucion .detail:hover .logo {
+    opacity: 0;
+}
+.solucion .detail .thumbnail {
+    opacity: 0;
+}
+.solucion .detail:hover .thumbnail {
+    opacity: 1;
+}
+.proyectosNube {
+    display: flex;
+    flex-wrap: wrap;
+}
+.proyectosNube .item-inside {
+    position: relative;
+    width: 320px;
+    height: 180px;
+    margin: 10px;
+    background-size: cover;
+    box-shadow:2px 2px 1px rgba(0,0,0,.3);
+    overflow: hidden;
+}
+.proyectosNube .enlaceNube {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+/**********RESPONSIVE************/
+
+@media (max-width:1200px){
+    .sliderproyectos .item-inside{
+        max-height:150px
+    }
+    .sliderproyectos .item-inside .title{
+        font-size:18px
+    }
+    .principal h2 {
+    font-size: 5em;
+}
+.enlaceheader {
+    
+    padding: 10px 20px;
+}
+}
+
+@media (max-width:1090px){
+    .principal {
+    padding: 60px 10% 20px;
+}
+    .principal p {
+    font-size: 16px;
+}
+    .principal h2 {
+    font-size: 4em;
+    margin: 30px 0 30px -5%;
+}
+.enlaceheader {
+    font-size: 15px;
+    line-height: 45px;
+    padding: 10px 20px;
+}
+.headerFloat {
+    height: 60px;
+}
+#logo {
+    height: 45px;
+}
+.menudiv:hover .barranavegacion {
+    
+    top: 60px;
+}
+.Counter > .stats-desc {
+    font-size: 3.5em;
+}
+.Indicador {
+    font-size: 18px;
+}
+.falsoboton a, .falsoboton span, .enviar input {
+    
+    font-size: 20px;
+    
+}
+.menudiv.searchform form {
+   
+    margin-right: 0;
+    position: absolute;
+    bottom: -48px;
+    padding: 10px;
+    right: 0;
+    background: #fff;
+    box-shadow: 2px 2px 1px rgba(0,0,0,.3);
+}
+.bloqueAzul img {
+    height: 100%;
+}
+#issues li p {
+    
+    width: 85%;
+    margin: 20px auto;
+}
+.tabcontent object {
+    width: 100%;
+}
+
+}
+
+/*TABLET*/
+@media (max-width:800px){
+.entrproyectos-2 .falsoboton {
+    margin-top: 60px;
+}
+.entrproyectos-2 .sliderproyectos {
+    margin-top: 200px;
+}
+    /*.principal {
+    min-height: 0;
+    overflow: hidden;
+}
+.principal:nth-child(2n +1) {
+    min-height: 0;
+}*/
+    
+    .slick-arrow.slick-prev {
+    left: 20px;
+}
+.slick-arrow.slick-next {
+    right: 20px;
+}
+#categorias {
+    margin-right: 0px;
+}
+.enlaceheader {
+    padding: 10px 10px;
+}
+.sliderproyectos {
+    width: 150vw;
+    left: -25vw;
+}
+.sliderproyectos .slick-list {
+    padding:0 !important;
+}
+.sliderproyectos .item-inside {
+    max-height: 300px;
+}
+.sliderproyectos .slick-arrow.slick-prev{
+    left:25vw;
+}
+.sliderproyectos .slick-arrow.slick-next{
+    right:25vw;
+}
+.Contacto {
+    flex-wrap: wrap-reverse;
+}
+.contactForm, .Mapa {
+    width: 100%;
+}
+
+.Mapa {
+    padding-top: 0;
+}
+#timeline, #issues li , #dates{
+    width: 660px !important;
+}
+#issues li img {
+    float: none;
+    width: 300px;
+    margin: 30px auto 0;
+}
+#issues li h1 {
+    font-size: 26px;
+    margin: 30px 20px 0;
+    text-align: center;
+}
+
+.barranavegacion p {
+    padding: 15px 0;
+}
+.tabcontent {
+    padding: 70px 54px 30px;
+}
+/*.nubeClientes > div {
+    height: 153px;
+    width: 272px;
+}*/
+.entrservicios-2 .nubeClientes {
+    height: 400px;
+}
+.tituloCategoria {
+    font-size: 50px;
+    transform: none !important;
+    bottom: 10px;
+}
+.bloqueAzul{
+    display:none
+}
+#main.fixed {
+    margin-top: 300px;
+}
+#categoria.fixed {
+    top: -150px;
+}
+#anchor {
+    top: 150px;
+}
+#slider {
+    height: 300px;
+}
+.tituloCategoria {
+    transform-origin: left bottom;
+}
+.tabcontent object {
+    width: 100%;
+    height:calc(100vh - 450px) !important;
+    
+}
+#proyectoSingle {
+    padding: 10px 10% 20px;
+}
+#proyectoSingle h3 {
+    width: 100%;
+}
+.todoProyecto {
+    flex-wrap: wrap;
+}
+.logoProyecto {
+    margin: 20px auto;
+}
+.descripcion, .dostercios, .tercio {
+    width: 100%;
+}
+.tercio {
+    display: flex;
+    justify-content: space-between;
+}
+.tercio > div{
+    display:inline-block;
+    width:48%;
+}
+.principal blockquote {
+    
+    margin-left:0;
+    width: 100%;
+    text-align: center;
+}
+.Counter {
+    width: 46%;
+    margin: 6% 1%;
+}
+}
+
+/*MOVIL*/
+@media (max-width:450px){
+    #main {
+        margin-bottom: 0
+}
+
+.principal h2 {
+    font-size: 2.4em;
+    margin:10px 0 30px
+}
+
+.principal {
+    padding: 20px 5%;
+}
+.principal p {
+    font-size: 14px;
+    text-align:justify;
+}
+.Counter {
+    width: 48%;
+    margin: 20px 1%;
+}
+.Counters {
+    padding:10px 0;
+}
+.falsoboton a, .falsoboton span, .enviar input {
+    font-size: 16px;
+}
+.principal:nth-child(2n )::after, #main::after {
+   
+    bottom: -5px;
+}
+.principal:nth-child(2n)::before {
+    
+    top: -5px;
+}
+.nubeClientes > div {
+    height: 72px;
+    width: 128px;
+}
+.entrservicios-2 .nubeClientes {
+     height: 330px;
+    margin-top: 30px;
+}
+.falsoboton, .enviar {
+    float: none;
+}
+.principal, .contactForm form{
+    text-align:center;
+}
+.sliderproyectos {
+    width: 300vw;
+   left: -100vw;
+   margin:20px auto 0
+}
+.sliderproyectos .slick-list {
+    padding: 20px 0 !important;
+}
+
+}
