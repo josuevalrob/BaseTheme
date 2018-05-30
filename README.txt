@@ -1,1 +1,1 @@
-Este es una copia de Dimatheme
+Theme developed by Javier Maldonado
